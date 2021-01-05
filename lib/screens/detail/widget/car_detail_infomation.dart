@@ -1,5 +1,6 @@
 import 'package:car_rental/constants.dart';
 import 'package:car_rental/model/car.dart';
+import 'package:car_rental/screens/detail/widget/profile_sopir.dart';
 import 'package:car_rental/widget/attribute.dart';
 // import 'package:car_rental/widget/rating_bar.dart';
 import 'package:flutter/material.dart';
@@ -85,7 +86,16 @@ class DriverCall extends StatelessWidget {
         // ),
         SizedBox(height: 5),
         FlatButton(
-          onPressed: () {},
+          onPressed: () {
+            Navigator.push(
+              context,
+              MaterialPageRoute(
+                builder: (context) {
+                  return ListProfile();
+                },
+              ),
+            );
+          },
           color: mCardColor,
           shape: RoundedRectangleBorder(
             borderRadius: BorderRadius.circular(36),
