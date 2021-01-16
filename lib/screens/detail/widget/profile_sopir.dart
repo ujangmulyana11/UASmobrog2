@@ -81,7 +81,7 @@ class _ListProfileState extends State<ListProfile> {
                 drive: "Pengalaman Drive 1 Tahun"),
             new ProfileSopir(
                 gambar:
-                    "https://i.pinimg.com/236x/3f/9e/29/3f9e29e2d24687e5a35f358e3a5bb6f4.jpg",
+                    "https://cdn0-production-images-kly.akamaized.net/1rA_52GpfDxDgAbShq5KKF5Qq04=/128x0:609x641/375x500/filters:quality(75):strip_icc():format(jpeg)/kly-media-production/medias/2076186/original/014071400_1523462588-4.jpg",
                 nama: "Kimtae Hyung",
                 umur: "Umur 24 Tahun",
                 nosim: "No SIM 000142235768",
