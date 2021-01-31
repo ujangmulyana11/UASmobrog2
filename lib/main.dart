@@ -1,4 +1,4 @@
-import 'package:car_rental/screens/available/available_car_screen.dart';
+import 'package:car_rental/splashscreen.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -16,7 +16,7 @@ class MyApp extends StatelessWidget {
         primarySwatch: Colors.blue,
         visualDensity: VisualDensity.adaptivePlatformDensity,
       ),
-      home: AvailableCarScreen(),
+      home: SplashScreenPage(),
     );
   }
 }

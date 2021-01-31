@@ -28,13 +28,7 @@ class MyAppbar extends StatelessWidget {
               fontWeight: FontWeight.w500,
             ),
           ),
-          IconButton(
-            icon: Icon(
-              Icons.menu,
-              color: Colors.white,
-            ),
-            onPressed: () {},
-          ),
+          SizedBox(height: 10),
         ],
       ),
     );
