@@ -1,33 +1,62 @@
 {
   "project_info": {
-    "project_number": "252357589184",
-    "project_id": "car-rental-5d26b",
-    "storage_bucket": "car-rental-5d26b.appspot.com"
+    "project_number": "925799592266",
+    "project_id": "rentalmobil-a2479",
+    "storage_bucket": "rentalmobil-a2479.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:252357589184:android:c6d8b50b4bd16cb6a39525",
+        "mobilesdk_app_id": "1:925799592266:android:c46db5a957cda3b13151b3",
         "android_client_info": {
           "package_name": "com.example.car_rental"
         }
       },
       "oauth_client": [
         {
-          "client_id": "252357589184-k7mneri7mcnpdpk8iiqc7nmutm2squtt.apps.googleusercontent.com",
+          "client_id": "925799592266-pck58jn9ab82ue4dmpkoiua82mkso7m4.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyAqAjUWXI3d1pzBm8KKxE7sjM9UEj06ad8"
+          "current_key": "AIzaSyCt7OVsBiDzx1S0O4zXZwJPhITPiMNVkKM"
         }
       ],
       "services": {
         "appinvite_service": {
           "other_platform_oauth_client": [
             {
-              "client_id": "252357589184-k7mneri7mcnpdpk8iiqc7nmutm2squtt.apps.googleusercontent.com",
+              "client_id": "925799592266-pck58jn9ab82ue4dmpkoiua82mkso7m4.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:925799592266:android:6b97b613e4a6b92d3151b3",
+        "android_client_info": {
+          "package_name": "com.ffff"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "925799592266-pck58jn9ab82ue4dmpkoiua82mkso7m4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCt7OVsBiDzx1S0O4zXZwJPhITPiMNVkKM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "925799592266-pck58jn9ab82ue4dmpkoiua82mkso7m4.apps.googleusercontent.com",
               "client_type": 3
             }
           ]

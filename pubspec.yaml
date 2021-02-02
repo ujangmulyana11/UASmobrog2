@@ -29,14 +29,14 @@ dependencies:
   # Use with the CupertinoIcons class for iOS style icons.
   cupertino_icons: ^0.1.3
   fluttertoast: ^7.1.6
-<<<<<<< HEAD
   date_time_picker: "^1.1.1"
   passwordfield: ^0.0.82
-  firebase_core: ^0.8.0-nullsafety.1
-  
+  firebase_core: "0.5.2"
+  firebase_auth: "^0.18.3"
+  provider: ^4.3.2+2
+  cloud_firestore: ^0.14.3
+  font_awesome_flutter: ^8.10.0
 
-=======
->>>>>>> dff5343ed873d287ca126a2936976176efe9bf20
 
 
 dev_dependencies:
