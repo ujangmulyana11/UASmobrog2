@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:car_rental/screens/detail/profile_sopir.dart';
 
 class Booking extends StatefulWidget {
   @override
@@ -192,7 +193,13 @@ class _Booking extends State<Booking> {
                       onPressed: isDisabled
                           ? null
                           : () {
-                              print("Clicked");
+                              Navigator.of(context).push(
+                                MaterialPageRoute(
+                                  builder: (context) {
+                                    return ListProfile();
+                                  },
+                                ),
+                              );
                             },
                       child: Text(
                         "Pilih Sopir",

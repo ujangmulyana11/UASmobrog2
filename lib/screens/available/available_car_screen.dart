@@ -1,3 +1,4 @@
+import 'package:car_rental/akun.dart';
 import 'package:car_rental/constants.dart';
 import 'package:car_rental/screens/available/widget/car_list_item.dart';
 import 'package:flutter/material.dart';
@@ -23,14 +24,23 @@ class AvailableCarScreen extends StatelessWidget {
         drawerHeader,
         ListTile(
           title: Text('Account'),
-          // onTap: () => Navigator.of(context).push(_NewPage()),
+          onTap: () => Navigator.of(context).push(
+            MaterialPageRoute(
+              builder: (context) {
+                return Akun();
+              },
+            ),
+          ),
         ),
         ListTile(
           title: Text('Logout'),
-          onTap: () =>
-              Navigator.of(context).push(MaterialPageRoute(builder: (context) {
-            return Login();
-          })),
+          onTap: () => Navigator.of(context).push(
+            MaterialPageRoute(
+              builder: (context) {
+                return Login();
+              },
+            ),
+          ),
         ),
       ],
     );
